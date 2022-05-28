@@ -2,6 +2,8 @@ ffmpeg -i data/train.mp4 frames/output_%02d.png
 
 bash install.sh
 
+Download pretrained model: https://drive.google.com/file/d/1hF8vS6YeHkx3j2pfCeQqqZGwA_PJq_Da/view
+
 python main.py --inference --model FlowNet2 --save_flow --inference_dataset ImagesFromFolder --inference_dataset_root ../speedchallenge/frames/ --resume ./checkpoints/FlowNet2_checkpoint.pth.tar --save ./output --number_gpus 1
 
 
