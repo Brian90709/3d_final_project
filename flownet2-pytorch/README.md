@@ -1,4 +1,4 @@
-ffmpeg -i data/train.mp4 frames/output_%02d.png
+ffmpeg -i ./speedchallenge/data/train.mp4 frames/output_%02d.png
 
 bash install.sh
 
