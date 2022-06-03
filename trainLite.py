@@ -33,9 +33,9 @@ model = EfficientNet.from_pretrained(f'efficientnet-b{v}', in_channels=in_c, num
 model.to(device);
 
 # directory with the optical flow images
-of_dir = '../opical-flow-estimation/opticalLite'
+of_dir = './opical-flow-estimation/opticalLite'
 # labels as txt file
-labels_f = '../speedchallenge/data/train.txt'
+labels_f = './speedchallenge/data/train.txt'
 
 class OFDataset(Dataset):
     def __init__(self, of_dir, label_f):
