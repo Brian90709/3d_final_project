@@ -14,17 +14,17 @@ After inferenced the optical flow maps, train the following model.
 
 ### PWC-Net
 ```shell
-trainPWC.py
+python trainPWC.py
 ```
 
 ### LiteFlowNet
 ```shell
-trainLite.py
+python trainLite.py
 ```
 
 ### FlowNet2
 ```shell
-trainFlow.py
+python trainFlow.py
 ```
 
 ### DEQ Flow
