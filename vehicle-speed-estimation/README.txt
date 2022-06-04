@@ -7,8 +7,5 @@ Inference the speed from optical flow.
 vis.ipynb:
 Visualize the results and output a video.
 
-of.ipynb:
-Run O
-
 Source:
 https://github.com/SharifElfouly/vehicle-speed-estimation
