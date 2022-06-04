@@ -1,5 +1,5 @@
 import cv2
-vidcap = cv2.VideoCapture('train.mp4')
+vidcap = cv2.VideoCapture('./speedchallenge/data/train.mp4')
 success,image = vidcap.read()
 count = 0
 while success:
