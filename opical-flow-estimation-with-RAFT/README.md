@@ -35,5 +35,5 @@ run.py --images_dir=<YOUR DIRECTORY> --output_dir=<OUTPUT DIRECTORY>
 You can visualize the .npy optical flow files with `vis.py`:
 
 ```Shell
-vis.py ---npy_dir==<YOUR DIRECTORY> --output_dir=<OUTPUT DIRECTORY>
+python vis.py --npy_dir=<YOUR DIRECTORY> --output_dir=<OUTPUT DIRECTORY>
 ```
