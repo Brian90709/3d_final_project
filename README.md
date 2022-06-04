@@ -4,8 +4,10 @@
 
 You need to download the speedchallenge dataset and  inference optical flow maps first.
 
+Before inference, you need to make the video into frames.
 ```shell
 git clone https://github.com/commaai/speedchallenge.git
+python cvt.py
 cd opical-flow-estimation
 ```
 and read the README.md.
