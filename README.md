@@ -35,4 +35,4 @@ python trainDEQ.py
 ```
 
 ### RAFT
-Tutorial in 
+Tutorial in https://github.com/Brian90709/3d_final_project/blob/main/vehicle-speed-estimation/README.txt
